@@ -24,32 +24,32 @@ const foods = {
   },
 
   pbpowder1serving: {
-    calories: 50,
-    protein: 10,
+    calories: 60,
+    protein: 6,
     carbs: 30,
     sodium: 150,
     potassium: 200
   },
 
   "small potato": {
-    calories: 50,
-    protein: 10,
-    carbs: 30,
-    sodium: 5,
-    potassium: 425
+    calories: 90,
+    protein: 2,
+    carbs: 20,
+    sodium: 10,
+    potassium: 400
   },
 
   "medium potato": {
-    calories: 75,
-    protein: 15,
-    carbs: 45,
-    sodium: 7,
-    potassium: 620
+    calories: 160,
+    protein: 4,
+    carbs: 35,
+    sodium: 15,
+    potassium: 700
   },
 
   "large potato": {
-    calories: 100,
-    protein: 20,
+    calories: 250,
+    protein: 7,
     carbs: 60,
     sodium: 10,
     potassium: 850
@@ -85,6 +85,86 @@ const foods = {
     carbs: 1,
     sodium: 70,
     potassium: 70
+    
+  },
+   "medium avocado": {
+    calories: 240,
+    protein: 3,
+    carbs: 12,
+    sodium: 10,
+    potassium: 700
+  },
+
+  "medium banana": {
+    calories: 105,
+    protein: 1,
+    carbs: 27,
+    sodium: 1,
+    potassium: 420
+  },
+
+  "gala apple": {
+    calories: 80,
+    protein: 0,
+    carbs: 22,
+    sodium: 1,
+    potassium: 160
+  },
+
+  "1/4 cup kefir": {
+    calories: 40,
+    protein: 2,
+    carbs: 3,
+    sodium: 30,
+    potassium: 95
+  },
+
+  "30g walnuts": {
+    calories: 200,
+    protein: 5,
+    carbs: 4,
+    sodium: 0,
+    potassium: 125
+  },
+
+  "30g almonds": {
+    calories: 170,
+    protein: 6,
+    carbs: 6,
+    sodium: 0,
+    potassium: 200
+  },
+
+  "1 slice bread": {
+    calories: 110,
+    protein: 7,
+    carbs: 17,
+    sodium: 165,
+    potassium: 25
+  },
+
+  "chicken breast": {
+    calories: 165,
+    protein: 31,
+    carbs: 0,
+    sodium: 75,
+    potassium: 330
+  },
+
+  "chicken thigh": {
+    calories: 210,
+    protein: 26,
+    carbs: 0,
+    sodium: 90,
+    potassium: 250
+  },
+
+  "1/2 cup seasoned minced meat": {
+    calories: 180,
+    protein: 16,
+    carbs: 3,
+    sodium: 320,
+    potassium: 250
   }
 };
 
