@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+<main class="app">
+  <h1>macro tracker</h1>
+
+  <p id="dayLabel">Current Day</p>
+
+  <h2>Totals</h2>
+
+  <p>Calories: <span id="calories">0</span></p>
+  <p>Protein: <span id="protein">0</span> g</p>
+  <p>Carbs: <span id="carbs">0</span> g</p>
+  <p>Sodium: <span id="sodium">0</span> mg</p>
+  <p>Potassium: <span id="potassium">0</span> mg</p>
+  <div class="action-box">
+    <button onclick="addMeal()">New Meal</button>
+    <button onclick="saveDay()">Save Day</button>
+    <button onclick="clearTotals()">Clear Meal</button>
+  </div>
+
+  <div class="food-scroll">
+    <button onclick="addFood('1 tbsp cream cheese')">1 tbsp cream cheese</button>
+    <button onclick="addFood('1 tbsp mayonnaise')">1 tbsp mayonnaise</button>
+    <button onclick="addFood('1 tbsp olive oil')">1 tbsp olive oil</button>
+    <button onclick="addFood('pbpowder1serving')">1 serving pb powder</button>
+    <button onclick="addFood('small potato')">Small Potato</button>
+    <button onclick="addFood('medium potato')">Medium Potato</button>
+    <button onclick="addFood('large potato')">Large Potato</button>
+    <button onclick="addFood('1 cup mixed veggies')">1 Cup Mixed Veggies</button>
+    <button onclick="addFood('1 cup milk')">1 Cup Milk</button>
+    <button onclick="addFood('1 can tuna')">1 Can Tuna</button>
+    <button onclick="addFood('1 egg')">1 Egg</button>
+  </div>
+
+  <div id="dayContainer" class="day-container"></div>
+  <div class="gif"></div>
+
+</main>
+
+<div id="confirmModal" class="modal">
+  <div class="modal-box">
+    <p>Delete this day?</p>
+
+    <div class="modal-buttons">
+      <button onclick="confirmDelete()">Yes</button>
+      <button onclick="closeModal()">Cancel</button>
+    </div>
+  </div>
+</div>
