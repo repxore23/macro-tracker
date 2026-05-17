@@ -1,67 +1,69 @@
 const foods = {
-  "1 tbsp cream cheese": {
-    calories: 90,
-    protein: 5,
-    carbs: 3,
-    sodium: 80,
-    potassium: 20
-  },
+"1 tbsp cream cheese": {
+  calories: 45,
+  protein: 1.0,
+  carbs: 1.0,
+  sodium: 45,
+  potassium: 19
+},
 
-  "1 tbsp mayonnaise": {
-    calories: 70,
-    protein: 1,
-    carbs: 15,
-    sodium: 65,
-    potassium: 5
-  },
+"1 tbsp mayonnaise": {
+  calories: 90,
+  protein: 0.0,
+  carbs: 0.0,
+  sodium: 90,
+  potassium: 0
+},
 
   "1 tbsp olive oil": {
-    calories: 120,
-    protein: 0,
-    carbs: 0,
-    sodium: 0,
-    potassium: 0
-  },
+  calories: 119,
+  protein: 0.0,
+  carbs: 0.0,
+  sodium: 0.3,
+  potassium: 0.1
+},
 
-  pbpowder1serving: {
-    calories: 60,
-    protein: 6,
-    carbs: 30,
-    sodium: 150,
-    potassium: 200
-  },
 
-  "small potato": {
-    calories: 90,
-    protein: 2,
-    carbs: 20,
-    sodium: 10,
-    potassium: 400
-  },
+"pbpowder1serving": {
+  calories: 60,
+  protein: 7.0,
+  carbs: 5.0,
+  sodium: 2,
+  potassium: 175
+},
 
-  "medium potato": {
-    calories: 160,
-    protein: 4,
-    carbs: 35,
-    sodium: 15,
-    potassium: 700
-  },
+"small potato": {
+  calories: 85,
+  protein: 2.2,
+  carbs: 19.5,
+  sodium: 7,
+  potassium: 448
+},
 
-  "large potato": {
-    calories: 250,
-    protein: 7,
-    carbs: 60,
-    sodium: 10,
-    potassium: 850
-  },
+ "medium potato": {
+  calories: 135,
+  protein: 3.6,
+  carbs: 31.0,
+  sodium: 11,
+  potassium: 708
+},
 
-  "1 cup mixed veggies": {
-    calories: 40,
-    protein: 2,
-    carbs: 8,
-    sodium: 30,
-    potassium: 200
-  },
+ "large potato": {
+  calories: 233,
+  protein: 7.9,
+  carbs: 68.0,
+  sodium: 19,
+  potassium: 1223
+},
+
+
+"1 cup mixed veggies": {
+  calories: 75,
+  protein: 3.1,
+  carbs: 15.0,
+  sodium: 46,
+  potassium: 276
+},
 
 "1 cup milk": {
   calories: 149,
@@ -96,21 +98,21 @@ const foods = {
     potassium: 700
   },
 
-  "medium banana": {
-    calories: 105,
-    protein: 1,
-    carbs: 27,
-    sodium: 1,
-    potassium: 420
-  },
+"medium banana": {
+  calories: 105,
+  protein: 1.3,
+  carbs: 27.0,
+  sodium: 1.2,
+  potassium: 422
+},
 
-  "gala apple": {
-    calories: 80,
-    protein: 0,
-    carbs: 22,
-    sodium: 1,
-    potassium: 160
-  },
+ "gala apple": {
+  calories: 95,
+  protein: 0.5,
+  carbs: 25.0,
+  sodium: 2,
+  potassium: 195
+},
 
  "1/4 cup kefir": {
   calories: 28,
