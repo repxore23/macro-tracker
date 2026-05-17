@@ -63,13 +63,13 @@ const foods = {
     potassium: 200
   },
 
-  "1 cup milk": {
-    calories: 120,
-    protein: 8,
-    carbs: 12,
-    sodium: 120,
-    potassium: 350
-  },
+"1 cup milk": {
+  calories: 149,
+  protein: 8.0,
+  carbs: 12.0,
+  sodium: 105,
+  potassium: 322
+},
 
   "1 can tuna": {
     calories: 130,
@@ -79,14 +79,15 @@ const foods = {
     potassium: 250
   },
 
-  "1 egg": {
-    calories: 70,
-    protein: 6,
-    carbs: 1,
-    sodium: 70,
-    potassium: 70
+ "1 egg": {
+  calories: 72,
+  protein: 6.3,
+  carbs: 0.4,
+  sodium: 71,
+  potassium: 69
+},
     
-  },
+  
    "medium avocado": {
     calories: 240,
     protein: 3,
@@ -111,13 +112,13 @@ const foods = {
     potassium: 160
   },
 
-  "1/4 cup kefir": {
-    calories: 40,
-    protein: 2,
-    carbs: 3,
-    sodium: 30,
-    potassium: 95
-  },
+ "1/4 cup kefir": {
+  calories: 28,
+  protein: 2.2,
+  carbs: 3.0,
+  sodium: 31,
+  potassium: 95
+},
 
   "30g walnuts": {
     calories: 200,
