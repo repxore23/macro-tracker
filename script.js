@@ -122,21 +122,21 @@ const foods = {
   potassium: 95
 },
 
-  "30g walnuts": {
-    calories: 200,
-    protein: 5,
-    carbs: 4,
-    sodium: 0,
-    potassium: 125
-  },
+"30g walnuts": {
+  calories: 196,
+  protein: 4.6,
+  carbs: 4.1,
+  sodium: 1,
+  potassium: 132
+},
 
-  "30g almonds": {
-    calories: 170,
-    protein: 6,
-    carbs: 6,
-    sodium: 0,
-    potassium: 200
-  },
+"30g almonds": {
+  calories: 174,
+  protein: 6.4,
+  carbs: 6.5,
+  sodium: 0.3,
+  potassium: 219
+},
 
   "1 slice bread": {
     calories: 110,
@@ -146,29 +146,29 @@ const foods = {
     potassium: 25
   },
 
-  "chicken breast": {
-    calories: 165,
-    protein: 31,
-    carbs: 0,
-    sodium: 75,
-    potassium: 330
-  },
+"chicken breast": {
+  calories: 120,
+  protein: 22.5,
+  carbs: 0.0,
+  sodium: 45,
+  potassium: 334
+},
 
-  "chicken thigh": {
-    calories: 210,
-    protein: 26,
-    carbs: 0,
-    sodium: 90,
-    potassium: 250
-  },
+"chicken thigh": {
+  calories: 121,
+  protein: 19.3,
+  carbs: 0.0,
+  sodium: 85,
+  potassium: 262
+},
 
-  "1/2 cup seasoned minced meat": {
-    calories: 180,
-    protein: 16,
-    carbs: 3,
-    sodium: 320,
-    potassium: 250
-  }
+"1/2 cup seasoned minced meat": {
+  calories: 156,
+  protein: 24.0,
+  carbs: 0.0,
+  sodium: 78,
+  potassium: 358
+}
 };
 
 let days = [];
